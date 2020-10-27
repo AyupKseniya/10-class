@@ -1,6 +1,8 @@
 from math import*
 def s(x,y):
-    return(x+sqrt(y))
+    return(x+sqrt(y))/(y+sqrt(x))
 def s2(a,b):
-    return(a+sqrt(b))
-print(s(15,8)/s2(8,15)+s(6,12)/s2(12,6)+s(7,21)/s2(21,7))
+    return(a+sqrt(b))/(b+sqrt(a))
+def s3(k,l):
+    return(k+sqrt(l))/(l+sqrt(k))
+print(s(15,8)+s2(6,12)+s3(7,21))
