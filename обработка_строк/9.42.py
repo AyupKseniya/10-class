@@ -39,6 +39,7 @@ for i in s:
         k+=1
 print(k)
 '''
+'''
 9.70
 s=input()
 glas="уеыаоэяию"
@@ -47,3 +48,28 @@ for i in s:
     if i in glas:
         k+=1
 print(k)  
+'''
+'''
+9.52
+s = input("введите предложение").split()
+c = input("")
+for i in range(len(s)):
+    if c in s[i]:
+        print(s[i])
+'''
+'''
+9.56
+s = input("введите предложение").split()
+c = "нн"
+for i in range(len(s)):
+    if c in s[i]:
+        print(s[i])
+'''
+9.172
+s = input("введите предложение").split()
+a=0
+for i in range(len(s)):
+    if len(s[i])>a:
+        a=len(s[i])
+        s1=s[i]
+print(s1)
