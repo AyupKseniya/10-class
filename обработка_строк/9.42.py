@@ -59,11 +59,10 @@ for i in range(len(s)):
 '''
 '''
 9.56
-s = input("введите предложение").split()
-c = "нн"
-for i in range(len(s)):
-    if c in s[i]:
-        print(s[i])
+s=input("Введите предложение")
+n=s.count("нн")
+print(n)
+'''
 '''
 9.172
 s = input("введите предложение").split()
@@ -73,3 +72,21 @@ for i in range(len(s)):
         a=len(s[i])
         s1=s[i]
 print(s1)
+'''
+'''
+9.60
+sl=input("введите предложение")
+k=0
+n=(" ")
+for i in sl:
+    if i in n:
+        k+=1
+print(k)        
+'''
+'''
+9.62
+sl=input("введите предложение")
+d=sl.count("а")
+d=d/len(sl)*100
+print(int(d))
+'''
