@@ -21,13 +21,11 @@ print("+"*4,sl,5*"_")
 '''       
 '''
 9.54
-s=input()
-buc="мин"
-k=0
-for i in s:
-    if i in buc:
-        k+=1
-print(k)        
+s=input("Введите предложение")
+n=s.count("м")
+d=s.count("и")
+a=s.count("н")
+print(n,d,a)     
 '''
 '''
 9.68
