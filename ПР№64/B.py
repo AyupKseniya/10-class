@@ -1,12 +1,9 @@
-file=input("Введите имя файла")
-rush=input("введите новое расширение")
-n="."
-k=file.count(".")
-if n not in file:
-        print(file+n+rush)
-elif k>1:
-        file=file.split(".")
-        print(file[0]+n+file[1]+n+rush)
-else:
-        file=file.split(".")
-        print(file[0]+n+rush)
+name=input("Введите имя файла")
+rash=input("Введите новое расширение")
+def zamena(n,r):
+    if n.count(".")>0:
+        n=n[:n.rfind(".")+1]+r
+    else:
+        n=n+"."+r
+    return n
+print(zamena(name,rash))
