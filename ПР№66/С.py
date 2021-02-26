@@ -1,6 +1,6 @@
 words = []
 print("Введите ФИО:\n")
-while True<20:
+while True:
     s = input()
     if s != "":
         words.append(s)
