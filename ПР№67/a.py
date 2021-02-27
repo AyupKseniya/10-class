@@ -1,7 +1,6 @@
 from random import *
 
-n = int(input("введите количество строк в списке: "))
-m = int(input("введите количество стобцов в списке: "))
+n,m=4,4
 a= [[randint(10,99) for j in range(m)] for i in range(n)]
 
 
