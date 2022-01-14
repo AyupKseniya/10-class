@@ -1,0 +1,27 @@
+.str{
+	float:right;
+	padding-right:1030px;
+	padding-top:13px;
+}
+.hidden{
+	display:none;
+	background:#EEEEFF;
+	border: 1px solid blue;
+	margin: 10px;
+}
+.picture{
+	float:left;
+	font-family:sans-serif;
+	margin: 0;
+	font-size: 80%;
+	padding: 10px;
+	text-align:center;
+}
+.pict{
+	float:right;
+	font-family:sans-serif;
+	margin: 0;
+	font-size: 80%;
+	padding: 10px ;
+	text-align:center;
+}
